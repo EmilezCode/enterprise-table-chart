@@ -1,0 +1,13 @@
+{
+  "name": "edp-render-proof",
+  "version": "1.1.0",
+  "description": "个人授权固定中继，查询和表图由统一企业MCP提供。",
+  "author": {"name": "Enterprise Data Platform"},
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "企业表图",
+    "shortDescription": "本人授权查数与表图",
+    "capabilities": ["Interactive", "Read"],
+    "category": "Productivity"
+  }
+}

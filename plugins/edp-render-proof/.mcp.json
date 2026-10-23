@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "edp_render_proof": {
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "launch.ps1"],
+      "cwd": "."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "enterprise-table-chart",
+  "interface": {"displayName": "企业插件"},
+  "plugins": [{
+    "name": "edp-render-proof",
+    "source": {"source": "local", "path": "./plugins/edp-render-proof"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}
